@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import '@fontsource-variable/onest';
+import '../styles.css';
 
 interface Props {
 	title: string;
@@ -37,7 +38,7 @@ const { title } = Astro.props;
 	}
 
 	body{
-		cursor: url('/src/assets/sword.png'),default;
+		
 		color:white;
 		background-color: #050505;
 		display:flex;
